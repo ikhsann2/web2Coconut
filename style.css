@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.halaman{
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  /* LOGO */
+  .logo img{
+      height: 2%;
+      width: 20%;
+      background-color: rgb(173, 101, 7);
+      
+  }
+  .logo{
+    background-color: rgb(255, 251, 251);
+  }
+  /* NAVBAR */
+  .navbar{
+    background-color: blue;
+    position:fixed;
+    text-align: center;
+    margin :auto;
+    width: 85%;
+    /* height: 20%; */
+    top: 0;
+  }
+  .navbar ul {
+      list-style-type: none;
+    }
+    
+  .navbar li {
+      float: left;
+    }
+    
+  .navbar li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      /* text align;center; */
+      padding: 14px;
+      text-decoration: none;
+    }
+    
+  .navbar li a:hover {
+      background-color: red;
+    }
+    /* .navbar{
+      margin-right: 30px;
+      margin-left: 30px;
+    } */
+  
+    /* KONTEN */
+  .gbr{
+    margin-top: 200px;
+  }
+  .hero{
+    height: 800px;
+    background-image: url(ikhsan.jpg);
+    background-size: cover;
+    background-position: centaliceblueer;
+    border-top:10px solid skyblue ;
+    border-bottom: 10px solid salmon;
+  }
+  /* ini footer */
+  .footer{
+    color: rgb(255, 255, 255) ;
+    background-color: black ;
+    font-size:  20px;
+    text-align: center;
+  }
+  
+  /* .gbr img{
+    height: 700px;
+    border-top:10px solid skyblue ;
+    border-bottom: 10px solid rgba(255, 0, 0, 0.959);
+  } */
+  .isi{
+    width: 80%;
+  }
+  .isi p{
+    margin-top: 30px;
+  }
+  
+  .writer{
+    font-size: 11px;
+    padding-top: -2px;
+  }
+  /* SIDEBAR */
+.Sidebar{
+  width: 20%;
+  float: right;
+  
+  }
+  .Sidebar img{
+    float: left;
+  width: 70px;
+  height: 70px;
+  padding-right: 10px;
+
+  }
+  .Sidebar h3{
+    color: gray;
+  }
+  
+  .Sidebar h3{
+    margin-bottom: -2px;
+  }
+  .Sidebar p{
+    margin-top: -2px;
+  }
